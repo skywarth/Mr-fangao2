@@ -11,7 +11,7 @@
   "dependencies": {
     "echarts": "^5.4.0",
     "element-plus": "^2.2.26",
-    "ol": "^7.2.2",
+    "ol": "^7.4.0",
     "vue": "^3.2.41",
     "vue-router": "^4.1.6",
     "vuex": "^4.0.2",

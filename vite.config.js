@@ -1,3 +1,10 @@
+/*
+ * @Author: liqifeng
+ * @Date: 2023-06-15 10:47:05
+ * @LastEditors: liqifeng Mr.undefine@protonmail.com
+ * @LastEditTime: 2023-06-15 11:10:37
+ * @Description: 
+ */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Cesium from 'vite-plugin-cesium'
@@ -16,7 +23,7 @@ export default defineConfig({
       
       input:{
         index:resolve(__dirname,"index.html"),
-        project:resolve(__dirname,"project.html")
+        // project:resolve(__dirname,"project.html")
       },
       output:{
         chunkFileNames:'static/js/[name]-[hash].js',
