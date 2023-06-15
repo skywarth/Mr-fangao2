@@ -3,11 +3,7 @@ name: CI
 on:
     push:
         branches:
-            - main # 这里只配置了main分支，所以只有推送main分支才会触发以下任务
-    permissions:
-        contents: read
-        pages: write
-        id-token: write       
+            - main # 这里只配置了main分支，所以只有推送main分支才会触发以下任务  
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
@@ -25,6 +21,6 @@ jobs:
             #- name: Deploy # 部署
             #  uses: JamesIves/github-pages-deploy-action@v4.3.3
               with:
-                 # ACCESS_TOKEN: ${{ secrets.githubio }} # 也就是我们刚才生成的 secret
+                  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 也就是我们刚才生成的 secret
                   branch: gh-pages # 部署后提交到那个分支
                   folder: dist # 这里填打包好的目录名称
