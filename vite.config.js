@@ -2,8 +2,8 @@
  * @Author: liqifeng
  * @Date: 2023-06-15 10:47:05
  * @LastEditors: liqifeng Mr.undefine@protonmail.com
- * @LastEditTime: 2023-06-15 11:10:37
- * @Description: 
+ * @LastEditTime: 2023-06-15 15:11:30
+ * @Description:  
  */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -20,6 +20,8 @@ export default defineConfig({
   build:{
     assetsDir:"static",
     rollupOptions:{
+      
+
       
       input:{
         index:resolve(__dirname,"index.html"),
