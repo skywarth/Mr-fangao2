@@ -1,3 +1,10 @@
+/*
+ * @Author: liqifeng
+ * @Date: 2023-06-15 10:47:04
+ * @LastEditors: liqifeng Mr.undefine@protonmail.com
+ * @LastEditTime: 2023-06-21 10:55:37
+ * @Description: 
+ */
 const routes = [
   {
     path: "/",
@@ -23,6 +30,11 @@ const routes = [
     path: "/mixin",
     name: "mixin",
     component: () => import("@/views/Composables/index.vue"),
+  },
+  {
+    path: "/rotatetest",
+    name: "rotatetest",
+    component: () => import("@/views/Test/RotateTest.vue"),
   },
   {
     path: "/UlitsTest",

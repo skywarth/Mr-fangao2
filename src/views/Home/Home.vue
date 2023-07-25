@@ -70,7 +70,7 @@ const Vue3Example = [
     {
         name: "关羽",
         id: "蜀国",
-        loc: "河东郡解县（山西省运城市盐湖区解州镇）",
+        loc: "/rotatetest",
     },
     {
         name: "刘备",
