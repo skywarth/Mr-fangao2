@@ -4,6 +4,10 @@ on:
     push:
         branches:
             - main # 这里只配置了main分支
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
